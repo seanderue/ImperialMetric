@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+.header {
+    background-image: linear-gradient(
+  40deg,
+  hsl(240deg 100% 20%) 3%,
+  hsl(289deg 100% 21%) 37%,
+  hsl(315deg 100% 27%) 51%,
+  hsl(329deg 100% 36%) 62%,
+  hsl(337deg 100% 43%) 71%,
+  hsl(357deg 91% 59%) 78%,
+  hsl(17deg 100% 59%) 85%,
+  hsl(34deg 100% 53%) 90%,
+  hsl(45deg 100% 50%) 96%,
+  hsl(55deg 100% 50%) 100%
+);
+    min-height: 260px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input {
+    background-color: transparent;
+    border: 0px;
+    size: 250px;
+    text-align: center;
+    font-size: 136px;
+    font-weight: 800;
+    color: floralwhite;
+    width: 75%;
+}
+
+.header-text {
+    display: flex;
+    color: #FFF;
+    font-weight: 800;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+}
+
+.results-section {
+    position: relative;
+    margin: auto;
+}
+
+.results-header{
+    text-align: center;
+    line-height: .5px;
+    margin-bottom: 15px;
+}
+
+.results-text{
+    color: #D2D2D2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#error {
+    color: #ED4880;
+    margin: auto;
+}
